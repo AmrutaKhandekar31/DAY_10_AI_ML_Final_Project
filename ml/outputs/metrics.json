@@ -1,0 +1,436 @@
+{
+  "deployed_model": "Logistic Regression",
+  "train_rows": 1600,
+  "test_rows": 400,
+  "models": {
+    "Logistic Regression": {
+      "cv_roc_auc_mean": 0.8519,
+      "cv_roc_auc_std": 0.0117,
+      "accuracy": 0.755,
+      "precision": 0.7639,
+      "recall": 0.7783,
+      "f1": 0.771,
+      "roc_auc": 0.8607,
+      "confusion_matrix": [
+        [
+          137,
+          51
+        ],
+        [
+          47,
+          165
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.011,
+          "tpr": 0.16
+        },
+        {
+          "fpr": 0.032,
+          "tpr": 0.41
+        },
+        {
+          "fpr": 0.043,
+          "tpr": 0.5
+        },
+        {
+          "fpr": 0.064,
+          "tpr": 0.552
+        },
+        {
+          "fpr": 0.085,
+          "tpr": 0.566
+        },
+        {
+          "fpr": 0.101,
+          "tpr": 0.599
+        },
+        {
+          "fpr": 0.128,
+          "tpr": 0.637
+        },
+        {
+          "fpr": 0.149,
+          "tpr": 0.675
+        },
+        {
+          "fpr": 0.165,
+          "tpr": 0.722
+        },
+        {
+          "fpr": 0.191,
+          "tpr": 0.741
+        },
+        {
+          "fpr": 0.207,
+          "tpr": 0.75
+        },
+        {
+          "fpr": 0.239,
+          "tpr": 0.764
+        },
+        {
+          "fpr": 0.271,
+          "tpr": 0.778
+        },
+        {
+          "fpr": 0.282,
+          "tpr": 0.807
+        },
+        {
+          "fpr": 0.298,
+          "tpr": 0.821
+        },
+        {
+          "fpr": 0.335,
+          "tpr": 0.858
+        },
+        {
+          "fpr": 0.399,
+          "tpr": 0.882
+        },
+        {
+          "fpr": 0.42,
+          "tpr": 0.906
+        },
+        {
+          "fpr": 0.447,
+          "tpr": 0.92
+        },
+        {
+          "fpr": 0.505,
+          "tpr": 0.934
+        },
+        {
+          "fpr": 0.521,
+          "tpr": 0.953
+        },
+        {
+          "fpr": 0.606,
+          "tpr": 0.967
+        },
+        {
+          "fpr": 0.707,
+          "tpr": 0.986
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "Random Forest": {
+      "cv_roc_auc_mean": 0.8234,
+      "cv_roc_auc_std": 0.0174,
+      "accuracy": 0.7325,
+      "precision": 0.7313,
+      "recall": 0.783,
+      "f1": 0.7563,
+      "roc_auc": 0.833,
+      "confusion_matrix": [
+        [
+          127,
+          61
+        ],
+        [
+          46,
+          166
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.011,
+          "tpr": 0.08
+        },
+        {
+          "fpr": 0.027,
+          "tpr": 0.302
+        },
+        {
+          "fpr": 0.043,
+          "tpr": 0.443
+        },
+        {
+          "fpr": 0.074,
+          "tpr": 0.509
+        },
+        {
+          "fpr": 0.096,
+          "tpr": 0.547
+        },
+        {
+          "fpr": 0.117,
+          "tpr": 0.571
+        },
+        {
+          "fpr": 0.144,
+          "tpr": 0.585
+        },
+        {
+          "fpr": 0.16,
+          "tpr": 0.618
+        },
+        {
+          "fpr": 0.197,
+          "tpr": 0.651
+        },
+        {
+          "fpr": 0.218,
+          "tpr": 0.684
+        },
+        {
+          "fpr": 0.234,
+          "tpr": 0.712
+        },
+        {
+          "fpr": 0.271,
+          "tpr": 0.731
+        },
+        {
+          "fpr": 0.303,
+          "tpr": 0.759
+        },
+        {
+          "fpr": 0.319,
+          "tpr": 0.778
+        },
+        {
+          "fpr": 0.351,
+          "tpr": 0.792
+        },
+        {
+          "fpr": 0.372,
+          "tpr": 0.83
+        },
+        {
+          "fpr": 0.399,
+          "tpr": 0.858
+        },
+        {
+          "fpr": 0.436,
+          "tpr": 0.877
+        },
+        {
+          "fpr": 0.479,
+          "tpr": 0.906
+        },
+        {
+          "fpr": 0.516,
+          "tpr": 0.92
+        },
+        {
+          "fpr": 0.543,
+          "tpr": 0.948
+        },
+        {
+          "fpr": 0.606,
+          "tpr": 0.962
+        },
+        {
+          "fpr": 0.644,
+          "tpr": 0.976
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    },
+    "Gradient Boosting": {
+      "cv_roc_auc_mean": 0.8209,
+      "cv_roc_auc_std": 0.0176,
+      "accuracy": 0.7325,
+      "precision": 0.7397,
+      "recall": 0.7642,
+      "f1": 0.7517,
+      "roc_auc": 0.8327,
+      "confusion_matrix": [
+        [
+          131,
+          57
+        ],
+        [
+          50,
+          162
+        ]
+      ],
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.011,
+          "tpr": 0.066
+        },
+        {
+          "fpr": 0.027,
+          "tpr": 0.358
+        },
+        {
+          "fpr": 0.037,
+          "tpr": 0.406
+        },
+        {
+          "fpr": 0.053,
+          "tpr": 0.481
+        },
+        {
+          "fpr": 0.069,
+          "tpr": 0.505
+        },
+        {
+          "fpr": 0.096,
+          "tpr": 0.552
+        },
+        {
+          "fpr": 0.122,
+          "tpr": 0.585
+        },
+        {
+          "fpr": 0.138,
+          "tpr": 0.599
+        },
+        {
+          "fpr": 0.154,
+          "tpr": 0.618
+        },
+        {
+          "fpr": 0.176,
+          "tpr": 0.67
+        },
+        {
+          "fpr": 0.191,
+          "tpr": 0.684
+        },
+        {
+          "fpr": 0.218,
+          "tpr": 0.708
+        },
+        {
+          "fpr": 0.261,
+          "tpr": 0.736
+        },
+        {
+          "fpr": 0.277,
+          "tpr": 0.745
+        },
+        {
+          "fpr": 0.314,
+          "tpr": 0.769
+        },
+        {
+          "fpr": 0.335,
+          "tpr": 0.792
+        },
+        {
+          "fpr": 0.378,
+          "tpr": 0.83
+        },
+        {
+          "fpr": 0.399,
+          "tpr": 0.849
+        },
+        {
+          "fpr": 0.452,
+          "tpr": 0.882
+        },
+        {
+          "fpr": 0.5,
+          "tpr": 0.915
+        },
+        {
+          "fpr": 0.553,
+          "tpr": 0.934
+        },
+        {
+          "fpr": 0.59,
+          "tpr": 0.962
+        },
+        {
+          "fpr": 0.633,
+          "tpr": 0.981
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ]
+    }
+  },
+  "feature_importance": {
+    "pest_sightings": 0.1505,
+    "cleaning_frequency_per_day": 0.1393,
+    "staff_trained_pct": 0.1196,
+    "humidity_pct": 0.1131,
+    "waste_disposal_score": 0.1023,
+    "days_since_last_inspection": 0.0961,
+    "temperature_c": 0.0835,
+    "water_quality_score": 0.0735,
+    "previous_violations": 0.0638,
+    "facility_type_Office": 0.017,
+    "facility_type_Restaurant": 0.0159,
+    "facility_type_Hospital": 0.0089,
+    "facility_type_School": 0.0089,
+    "facility_type_Hotel": 0.0077
+  },
+  "feature_selection": {
+    "mutual_information": {
+      "pest_sightings": 0.0849,
+      "cleaning_frequency_per_day": 0.0309,
+      "water_quality_score": 0.0147,
+      "waste_disposal_score": 0.0144,
+      "staff_trained_pct": 0.0139,
+      "days_since_last_inspection": 0.0129,
+      "temperature_c": 0.0117,
+      "previous_violations": 0.0072,
+      "daily_footfall": 0.0013,
+      "handwash_stations": 0.0,
+      "humidity_pct": 0.0
+    },
+    "rfe_selected": [
+      "cleaning_frequency_per_day",
+      "staff_trained_pct",
+      "waste_disposal_score",
+      "water_quality_score",
+      "pest_sightings",
+      "humidity_pct",
+      "days_since_last_inspection",
+      "previous_violations"
+    ],
+    "selected": [
+      "cleaning_frequency_per_day",
+      "staff_trained_pct",
+      "waste_disposal_score",
+      "water_quality_score",
+      "pest_sightings",
+      "temperature_c",
+      "humidity_pct",
+      "days_since_last_inspection",
+      "previous_violations"
+    ],
+    "dropped": [
+      "handwash_stations",
+      "daily_footfall"
+    ]
+  },
+  "preprocessing": {
+    "rows_raw": 2000,
+    "rows_clean": 2000,
+    "missing_before": {
+      "staff_trained_pct": 87,
+      "water_quality_score": 85,
+      "temperature_c": 74,
+      "humidity_pct": 74
+    }
+  }
+}

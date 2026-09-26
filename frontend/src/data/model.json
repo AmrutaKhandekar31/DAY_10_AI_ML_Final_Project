@@ -1,0 +1,106 @@
+{
+  "name": "Logistic Regression",
+  "version": "1.0.0",
+  "threshold": 0.5,
+  "numeric_features": [
+    "cleaning_frequency_per_day",
+    "staff_trained_pct",
+    "waste_disposal_score",
+    "water_quality_score",
+    "pest_sightings",
+    "temperature_c",
+    "humidity_pct",
+    "days_since_last_inspection",
+    "previous_violations"
+  ],
+  "medians": {
+    "cleaning_frequency_per_day": 3.0,
+    "staff_trained_pct": 69.6,
+    "waste_disposal_score": 5.0,
+    "water_quality_score": 6.0,
+    "pest_sightings": 1.0,
+    "temperature_c": 24.2,
+    "humidity_pct": 60.1,
+    "days_since_last_inspection": 203.0,
+    "previous_violations": 1.0
+  },
+  "means": {
+    "cleaning_frequency_per_day": 2.97125,
+    "staff_trained_pct": 69.1945,
+    "waste_disposal_score": 5.441875,
+    "water_quality_score": 5.725,
+    "pest_sightings": 1.238125,
+    "temperature_c": 24.379125,
+    "humidity_pct": 59.960125,
+    "days_since_last_inspection": 203.6825,
+    "previous_violations": 1.52125
+  },
+  "stds": {
+    "cleaning_frequency_per_day": 1.750478,
+    "staff_trained_pct": 16.525477,
+    "waste_disposal_score": 2.890133,
+    "water_quality_score": 2.747158,
+    "pest_sightings": 1.108567,
+    "temperature_c": 4.388273,
+    "humidity_pct": 11.444702,
+    "days_since_last_inspection": 112.518262,
+    "previous_violations": 1.223539
+  },
+  "clip_bounds": {
+    "cleaning_frequency_per_day": [
+      -4.0,
+      10.0
+    ],
+    "staff_trained_pct": [
+      -10.300000000000011,
+      148.60000000000002
+    ],
+    "waste_disposal_score": [
+      -12.0,
+      23.0
+    ],
+    "water_quality_score": [
+      -12.0,
+      23.0
+    ],
+    "pest_sightings": [
+      -6.0,
+      8.0
+    ],
+    "temperature_c": [
+      4.29999999999999,
+      44.20000000000001
+    ],
+    "humidity_pct": [
+      5.700000000000003,
+      114.2
+    ],
+    "days_since_last_inspection": [
+      -478.0,
+      887.0
+    ],
+    "previous_violations": [
+      -2.0,
+      5.0
+    ]
+  },
+  "coefficients": {
+    "cleaning_frequency_per_day": -0.959911,
+    "staff_trained_pct": -0.541361,
+    "waste_disposal_score": -0.663631,
+    "water_quality_score": -0.490299,
+    "pest_sightings": 1.02957,
+    "temperature_c": 0.082658,
+    "humidity_pct": 0.453108,
+    "days_since_last_inspection": 0.398701,
+    "previous_violations": 0.555566
+  },
+  "facility_type_coefficients": {
+    "Hospital": 0.003315,
+    "Hotel": 0.141953,
+    "Office": -0.664828,
+    "Restaurant": 0.416499,
+    "School": 0.210944
+  },
+  "intercept": 0.116372
+}
