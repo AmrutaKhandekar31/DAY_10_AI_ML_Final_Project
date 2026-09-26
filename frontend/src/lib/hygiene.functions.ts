@@ -169,3 +169,25 @@ export const runAssessment = createServerFn({ method: "POST" })
 
     return result;
   });
+const facilityIdSchema = z.object({
+  id: z.string().uuid("Invalid facility ID"),
+});
+
+export const deleteFacility = createServerFn({ method: "POST" })
+  .inputValidator((data: unknown) => facilityIdSchema.parse(data))
+  .handler(async ({ data }) => {
+    const { pool } = await import("./db.server");
+
+    const result = await pool.query(
+      `DELETE FROM public.facilities
+       WHERE id = $1
+       RETURNING id, name`,
+      [data.id],
+    );
+
+    if (result.rowCount === 0) {
+      throw new Error("Facility not found");
+    }
+
+    return result.rows[0];
+  });
